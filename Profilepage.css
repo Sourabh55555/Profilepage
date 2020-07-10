@@ -1,0 +1,904 @@
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  body {
+    width: 1440px;
+    height: 2573px;
+  }
+
+.hey {
+    width: 292px;
+  height: 31px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.lineafterhey {
+    width: 530px;
+    height: 20px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4e4a4a;
+}
+
+.selectbox {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
+.streamingbox {
+  margin-right: 54px;
+  margin-bottom: 18px;
+}
+
+.genresbox {
+
+}
+
+.countrylanguagebox {
+
+}
+
+.countrybox {
+  margin-bottom: 18px;
+}
+
+.languagebox {
+  margin-bottom: 21px;
+}
+
+.streaminglabel {
+    
+    width: 134px;
+    height: 18px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777777;
+    
+}
+
+.streamingtext {
+  width: 169px;
+  height: 21px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #1a1a1a;
+}
+
+.remaininglabel {
+    width: 94px;
+    height: 15px;
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #777777;
+}
+
+.select {
+    width: 278px;
+    height: 35px;
+    border-radius: 2px;
+    border: solid 1px warm-grey;
+    background-color: white;
+}
+
+.savetext {
+    width: 182px;
+    height: 31px;
+    font-family: Lato;
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: white;
+}
+
+.savebutton {
+    width: 285px;
+  height: 35px;
+  border-radius: 2px;
+  background-color: #ff7a38;
+  border: none;
+}
+
+.preferencestext {
+    width: 260px;
+    height: 16px;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #090909;
+
+}
+
+.textaftermoviepreferences {
+  width: 460px;
+  height: 24px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4e4a4a;
+}
+
+.searchbutton {
+  width: 40.5px;
+  height: 39.4px;
+  border-radius: 2px;
+  background-color: #ff7a38;
+  float: right;
+}
+
+.searchimg {
+  width: 16.9px;
+  height: 15.6px;
+  object-fit: contain;
+ 
+}
+
+.inputtext {
+  width: 208px;
+  height: 19px;
+  font-family: AvenirNext;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #999999;
+}
+
+.inputbuttoncombine {
+  width: 297.8px;
+  height: 39.4px;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+  border: solid 1px white;
+  background-color: white;
+}
+
+.subscribedmovies {
+  width: 260px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #090909;
+}
+
+.subscribedmoviesimg {
+  width: 138.2px;
+  height: 192px;
+}
+
+.fightclubtext {
+  width: 75px;
+  height: 21px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.fightclubyear {
+  width: 39px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7a7a7a;
+  
+}
+
+.remove {
+  width: 59px;
+  height: 15px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #7a7a7a;
+}
+
+.textaftercollectionpreferences {
+  width: 480px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4e4a4a;
+}
+
+.subscribedcollectionstext {
+  width: 235.8px;
+  height: 27px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+
+.subscribedcollectionsimg {
+  width: 203px;
+  height: 105px;
+}
+
+.textaftersubscribedcollectionsimg {
+  width: 202px;
+  height: 37px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #333333;
+}
+
+.yourlisttxt {
+  display: flex;
+}
+
+.yourlist {
+  width: 85.8px;
+  height: 27px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  display: inline-flex;
+
+  margin-right: 54.2px;
+}
+
+.createyourlist {
+  width: 161px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0047ab;
+}
+
+.createlistcontent {
+  width: 990px;
+  height: 156px;
+  background-color: white;
+}
+
+.createlistimg {
+  width: 320px;
+  height: 155px;
+}
+
+.yourlistmoviename {
+  width: 465px;
+  height: 54px;
+  font-family: Lato;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+}
+
+.yourlistinfo {
+  width: 227px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #888888;
+}
+
+.ratingtxt {
+  
+  display: flex;
+}
+
+.ratings {
+  width: 116px;
+  height: 27px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+  display: inline-flex;
+  margin-right: 61px;
+}
+
+.addratings {
+  width: 115px;
+  height: 28px;
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #0047ab;
+  
+}
+
+.ratingsfightclubkrazzy4 {
+  width: 120px;
+  height: 22px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.ratingslordrings {
+  width: 440px;
+  height: 22px;
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #000000;
+}
+
+.ratingsfightclubkrazzy4year {
+  width: 35px;
+  height: 14px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7a7a7a;
+}
+
+.ratingslordringsyear {
+  width: 35px;
+  height: 14px;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #7a7a7a;
+}
+
+.rated {
+  width: 65px;
+  height: 17px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  margin-left: 5px;
+}
+
+.thumb {
+  width: 16px;
+  height: 16px;
+  background-color: #000000;
+
+  float: right;
+}
+
+.ratingswhatyoulike {
+  width: 126px;
+  height: 27px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  margin-left: 5px;
+}
+
+.cross {
+  width: 12px;
+  height: 12px;
+  object-fit: contain;
+  
+  display: inline-block;
+  margin: auto;
+  
+}
+
+.cross1 {
+  width: 7px;
+  height: 7px;
+  object-fit: contain;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedpsychological {
+  width: 84px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+  
+}
+
+.ratedtwisted {
+  width: 47px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedaheadoftime {
+  width: 92px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedaheadoftime1 {
+  width: 90px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedmindfuck {
+  width: 67px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedmindfuck1 {
+  width: 64px;
+  height: 16px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.rateddark {
+  width: 29px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.rateddark1 {
+  width: 31px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedanticonsumerism {
+  width: 114px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedanticonsumerism1 {
+  width: 111px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedcheapcomedy {
+  width: 92px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedbraindamage {
+  width: 93px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratedleaveyourmind {
+  width: 117px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.ratederotic {
+  width: 36px;
+  height: 20px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #222222;
+
+  display: inline-block;
+  margin: auto;
+}
+
+.whatyoulikecontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;  
+  flex-wrap: wrap;
+  width: 550px;
+  height: auto;
+}
+
+.aheadoftimebox, .psychologicalbox, .braindamagebox {
+  width: 124px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.aheadoftimebox1 {
+  width: 117px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.psychologicalbox1 {
+  width: 115px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.mindfuckbox {
+  width: 104px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+
+  
+}
+
+.mindfuckbox1 {
+  width: 103px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.twistedbox {
+  width: 84px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.darkbox {
+  width: 74px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.darkbox1 {
+  width: 61px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.anticonsumerismbox {
+  width: 144px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.anticonsumerismbox1 {
+  width: 142px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.cheapcomedybox {
+  width: 129px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.leaveyourmindbox {
+  width: 144px;
+  height: 33px;
+  border-radius: 2px;
+  border: solid 0.5px #E0DED8;
+}
+
+.eroticbox {
+  width: 61px;
+  height: 22px;
+  background-color: #f3f3f3;
+}
+
+.psychologicalbox, .psychologicalbox1, .mindfuckbox, .mindfuckbox1, .twistedbox, .aheadoftimebox, .aheadoftimebox1, .darkbox, .darkbox1, .anticonsumerismbox, .anticonsumerismbox1, .cheapcomedybox, .braindamagebox, .leaveyourmindbox, .eroticbox {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+ body {
+  width: 320px;
+  height: 2763px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+
+ .lineafterhey {
+  width: 280px;
+  height: 50px;
+ 
+ }
+
+ .streamingbox, .genresbox, .countrybox {
+   margin-bottom: 16px;
+ }
+
+ .languagebox {
+  margin-bottom: 29px;
+ }
+
+ .moviepreferencessubscribedbox {
+   margin-top: 29px;
+ }
+
+ .textaftermoviepreferences {
+  width: 260px;
+  height: 50px;
+ }
+
+ .textaftercollectionpreferences {
+  width: 260px;
+  height: 50px;
+ }
+
+ .whatyoulikecontainer {
+   width: 310px;
+   height: auto;
+   
+ }
+}
